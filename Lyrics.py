@@ -9,6 +9,8 @@ title = input("Enter title sign: ") # the thing that will be written before the 
 fulllyrics = input("Where do you want to save the final result (must be a txt file. not overwriting files): ") # the .txt file that will include the full data
 fulllyrics = fulllyrics.replace("\u202a", '') # a bug i found when i tried to copy the name of the file
 
+songsFind = songsFind.replace("\u202a", "")
+
 arr = os.listdir(songsFind) # getting the data in the given folder
 dead = ""
 

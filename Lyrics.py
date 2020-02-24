@@ -20,7 +20,7 @@ for place in arr:
 
     if place != "מילים": # an old part of the program that I didn't want to remove. can be ignored
 
-        if('~' in place): # if you want to use a protocol I found as useful: artist~albul~number of song in the album~the name of the song
+        if('~' in place): # if you want to use a protocol I found as useful: artist~album~number of song in the album~the name of the song
             place2 = place
             place2 = place[place.find("~") + 1 : ]
             place2 = place2[place2.find("~") + 1 : ]
